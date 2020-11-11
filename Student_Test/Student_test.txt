@@ -1,0 +1,18 @@
+(*) In this we are going to use PANDAS to load the CSV file.
+
+(*) Then we apply Pandas Series.fillna() function is used to fill NA/NaN values using the specified method.
+
+(*) Then we create a New Column as TOTAL by adding the marks or students in 3 subjects.
+
+(*) Then we get the marks of student who scored Total of more than 200.
+
+(*) Then we get the 'Student ID' and 'Total' of students who scored 'greater than 80' in 'MATHS' and 'PHYSICS'.
+
+(*) Then we drop the column of 'Physics' and 'Maths'.
+The drop() function is used to drop the colums by using axix = 1 or name of the columns as columns = 'name of the column'.
+
+(*)Then we return the sum of total and len of total.
+
+(*) Then we get the result of chemistry students who failed and passed.
+
+(*) And then a DataFrame and we store the result by creating a  new CSV file.
